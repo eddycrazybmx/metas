@@ -1,4 +1,1 @@
-# goals2
-# metas
-# metas
-# metas
+# software from  goals managment 
