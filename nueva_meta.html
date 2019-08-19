@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nueva Meta</title>
+	<meta charset="utf-8">
+	<meta content="display">
+	<style type="text/css" href="styles.css"> </style>
+	<script type="text/javascript" src="app.js"></script>
+
+</head>
+<body>
+	<form  class="esilo_metas" title="Nueva Meta">
+		<div class="header">
+				<span class="header">Metas</span>
+		</div>
+		<table>
+			<tr>
+				<th>Titulo</th>
+				<th>Descripi&oacute;n</th>
+				<th>Fecha De Inicio</th>
+				<th>Fecha Limite</th>
+				<th>Status</th>
+			</tr>
+			<tr>
+				<td>1.- goal</td>
+				<td>Crear una api para planeaci&oacute;n de metas</td>
+				<td>13/Agosto/19</td>
+				<td>Sin definir</td>
+				<th>
+					<SELECT name="Estatus">
+						<option>Proceso</option>
+						<option>Pendiente</option>
+						<option>Realizado</option>
+					</SELECT>
+				</th>
+			</tr>
+		</table>
+		<div class="c_button">
+			<input type="button" id="nuevo" name="nuevo" value="Nuevo">			
+		</div>	
+
+	</form>
+<br><br><br>
+	
+	<form class="esilo_metas">
+		<table>
+			<div class="header">
+				<span class="header">Crear Una Meta</span>
+			</div>
+			
+			<tr>
+				<th>Titulo : </th>
+				<td> <input type="" name="text"></td>
+				<th>Fecha De Inicio: </th>
+				<td><input type="date" name="fecha"/></td>
+			</tr>
+			
+			<tr>
+				<th>Descriptcion: </th>
+				<td colspan="3"><textarea id="text" rows="5"></textarea></td>
+			</tr>
+
+			<tr>
+				<th>
+					Estatus: 
+				</th>
+				<td><SELECT name="Estatus">
+						<option>Proceso</option>
+						<option>Pendiente</option>
+						<option>Realizado</option>
+					</SELECT>
+				</td>
+				<th>Fecha Limite: </th>
+				<td><input type="date" name="fecha"> </td>
+			</tr>	
+		</table>	
+
+		<div class="c_button">
+			<input type="button" id="Guardar" name="nuevo" value="Guardar">
+		</div>
+	</form>
+
+
+</body>
+</html>

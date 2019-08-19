@@ -1,0 +1,53 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+		.header{
+			display: block;
+			text-align: center;
+			background-color: #2682A6;
+			width:100%;
+			
+			border-radius: 5px;
+		}
+		.header span{
+			color: #FAFFE6;
+			font-style: italic;
+			padding: 10px;
+		}
+		.esilo_metas{
+			border: 2px solid #5C6A70;
+			width: 50%;
+			position: relative;
+			margin: 0 auto;
+			display: block;
+			border-radius: 10px;
+			
+		}
+		input[type="button"]{
+			padding: 5px;
+			border-radius: 20px;
+			margin: 5px;
+			/*color:white;*/
+			font-variant: bold;
+			background-color: #FAFFE6;
+			
+			
+		}
+		.button{
+			display: inline;
+			position: relative;
+			float:right;
+		}
+		.c_button{
+			display: block;
+			width: 100%;
+			text-align: right;
+		}
+		table{
+			width: 100%
+		}
+		#text{
+			min-width:70%;
+		}
